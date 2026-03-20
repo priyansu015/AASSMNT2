@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Change</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .box {
+            width: 400px;
+            height: 250px;
+            margin: 50px auto;
+            background-image: url('image1.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+
+        /* Change image on hover */
+        .box:hover {
+            background-image: url('image2.jpg');
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Hover to Change Image</h1>
+
+    <div class="box"></div>
+
+</body>
+</html>

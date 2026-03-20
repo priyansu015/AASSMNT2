@@ -1,0 +1,21 @@
+/* CSK Background */
+body {
+    background-color: #fdb913; /* Yellow */
+    font-family: Arial;
+}
+
+/* Class styling */
+.customHeading {
+    color: #1c2c5b; /* Blue */
+    font-size: 24px;
+    text-align: center;
+}
+
+.customText {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
